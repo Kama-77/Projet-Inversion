@@ -1,0 +1,20 @@
+{
+  "mappings": {
+    "com/kama/inversion/mixin/LivingEntityDamageMixin": {
+      "damage": "Lnet/minecraft/class_1309;method_5643(Lnet/minecraft/class_1282;F)Z"
+    },
+    "com/kama/inversion/mixin/LivingEntityHealMixin": {
+      "heal(F)V": "Lnet/minecraft/class_1309;method_6025(F)V"
+    }
+  },
+  "data": {
+    "named:intermediary": {
+      "com/kama/inversion/mixin/LivingEntityDamageMixin": {
+        "damage": "Lnet/minecraft/class_1309;method_5643(Lnet/minecraft/class_1282;F)Z"
+      },
+      "com/kama/inversion/mixin/LivingEntityHealMixin": {
+        "heal(F)V": "Lnet/minecraft/class_1309;method_6025(F)V"
+      }
+    }
+  }
+}

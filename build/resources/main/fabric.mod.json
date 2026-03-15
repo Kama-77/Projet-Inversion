@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "id": "kamas_inversion_mod",
+  "version": "1.0.0",
+  "name": "Kama's Inversion Mod",
+  "description": "A simple Fabric mod template for Kama's Inversion Mod.",
+  "authors": [
+    "Kama"
+  ],
+  "contact": {
+    "homepage": "",
+    "sources": ""
+  },
+  "license": "All Rights Reserved",
+  "icon": "assets/kamas_inversion_mod/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.kama.inversion.KamasInversionMod"
+    ],
+    "client": [
+      "com.kama.inversion.KamasInversionClient"
+    ]
+  },
+  "mixins": [
+    "kamas_inversion_mod.mixins.json"
+  ],
+  "depends": {
+    "minecraft": "1.20.1",
+    "fabricloader": ">=0.16.5",
+    "fabric-api": ">=0.92.2+1.20.1",
+    "java": ">=21"
+  }
+}
+
