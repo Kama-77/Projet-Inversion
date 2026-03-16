@@ -1,0 +1,11 @@
+accessWidener v2 named
+
+accessible class net/minecraft/client/render/RenderLayer$MultiPhase
+accessible class net/minecraft/client/render/RenderLayer$MultiPhaseParameters
+accessible class net/minecraft/client/render/RenderPhase$ShaderProgram
+accessible class net/minecraft/client/render/RenderPhase$Texture
+
+accessible method net/minecraft/client/render/RenderPhase$ShaderProgram <init> (Ljava/util/function/Supplier;)V
+accessible method net/minecraft/client/render/RenderPhase$Texture <init> (Lnet/minecraft/util/Identifier;ZZ)V
+
+accessible field net/minecraft/client/render/GameRenderer postProcessor Lnet/minecraft/client/gl/PostEffectProcessor;

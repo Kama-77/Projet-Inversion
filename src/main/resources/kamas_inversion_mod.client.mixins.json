@@ -1,0 +1,12 @@
+{
+  "required": true,
+  "package": "com.kama.inversion.mixin.client",
+  "compatibilityLevel": "JAVA_17",
+  "client": [
+    "GameRendererAccessor",
+    "PlayerEntityRendererMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 0
+  }
+}
